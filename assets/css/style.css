@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+}
+body {
+  height: 200vh;
+  padding: 50px;
+}
+section {
+  height: 120vh;
+  width: 75vw;
+  background-color: black;
+  padding: 30px;
+  border-bottom: 30px solid rgb(13, 2, 56);
+}
+h5 {
+  text-transform: uppercase;
+  font-size: medium;
+  font-family: arial;
+  margin-left: 50px;
+  margin-top: 50px;
+  letter-spacing: 1px;
+}
+h1 {
+  margin-left: 50px;
+  margin-top: 10px;
+  font-family: arial;
+  font-size: 38px;
+  width: 60%;
+  letter-spacing: 1px;
+  line-height: 1cm;
+}
+section .gray {
+  color: #2e2c2ce2;
+}
+section .white {
+  color: whitesmoke;
+}
+section .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section .box1 {
+  background-image: url(../images/photo1.jpeg);
+  height: 500px;
+  width: 650px;
+  object-fit: contain;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+}
+section .box2 {
+  background-image: url(../images/photo2.png);
+  height: 500px;
+  width: 400px;
+  object-fit: contain;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+}
+section .box3 {
+  background-image: url(../images/photo3.png);
+  height: 250px;
+  width: 450px;
+  object-fit: contain;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+  padding-top: 5px;
+}
+section .box4 {
+  background-image: url(../images/pexels-yugantar-sambhangphe-4034204.jpeg);
+  height: 200px;
+  width: 450px;
+  object-fit: contain;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+  padding-top: 5px;
+  margin-top: 20px;
+}
+section .box5 {
+  background-image: url(../images/presenting.jpeg);
+  height: 480px;
+  width: 600px;
+  object-fit: contain;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+  border-bottom: transparent;
+}
+
+section .bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
