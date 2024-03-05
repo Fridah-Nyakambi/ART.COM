@@ -2,32 +2,40 @@
   margin: 0;
 }
 body {
-  height: 200vh;
+  height: 90vh;
   padding: 50px;
+  background: linear-gradient(black, grey);
+  margin-left: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 section {
-  height: 120vh;
-  width: 75vw;
+  height: 60vh;
+  width: 50vw;
   background-color: black;
+  display: flex;
+  /* justify-content: space-evenly; */
+  align-items: center;
+  flex-direction: column;
   padding: 30px;
-  border-bottom: 30px solid rgb(13, 2, 56);
 }
 h5 {
   text-transform: uppercase;
-  font-size: medium;
+  font-size: 13px;
   font-family: arial;
   margin-left: 50px;
-  margin-top: 50px;
+  margin-top: 30px;
   letter-spacing: 1px;
 }
 h1 {
-  margin-left: 50px;
-  margin-top: 10px;
+  margin-left: 30px;
+  margin-top: 5px;
   font-family: arial;
-  font-size: 38px;
-  width: 60%;
+  font-size: 23px;
+  width: 90%;
   letter-spacing: 1px;
-  line-height: 1cm;
 }
 section .gray {
   color: #2e2c2ce2;
@@ -37,13 +45,13 @@ section .white {
 }
 section .top {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
 }
 section .box1 {
   background-image: url(../images/photo1.jpeg);
-  height: 500px;
-  width: 650px;
+  height: 230px;
+  width: 400px;
   object-fit: contain;
   background-position: center;
   background-size: cover;
@@ -51,48 +59,55 @@ section .box1 {
 }
 section .box2 {
   background-image: url(../images/photo2.png);
-  height: 500px;
+  height: 230px;
+  width: 300px;
+  object-fit: contain;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+  margin-left: 20px;
+}
+section .box3 {
+  background-image: url(../images/photo3.png);
+  height: 130px;
+  width: 300px;
+  object-fit: contain;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+section .box4 {
+  background-image: url(../images/pexels-yugantar-sambhangphe-4034204.jpeg);
+  height: 100px;
+  width: 300px;
+  object-fit: contain;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+}
+section .box5 {
+  background-image: url(../images/presenting.jpeg);
+  height: 258px;
   width: 400px;
   object-fit: contain;
   background-position: center;
   background-size: cover;
   border-radius: 20px;
-}
-section .box3 {
-  background-image: url(../images/photo3.png);
-  height: 250px;
-  width: 450px;
-  object-fit: contain;
-  background-position: center;
-  background-size: cover;
-  border-radius: 20px;
-  padding-top: 5px;
-}
-section .box4 {
-  background-image: url(../images/pexels-yugantar-sambhangphe-4034204.jpeg);
-  height: 200px;
-  width: 450px;
-  object-fit: contain;
-  background-position: center;
-  background-size: cover;
-  border-radius: 20px;
-  padding-top: 5px;
-  margin-top: 20px;
-}
-section .box5 {
-  background-image: url(../images/presenting.jpeg);
-  height: 480px;
-  width: 600px;
-  object-fit: contain;
-  background-position: center;
-  background-size: cover;
-  border-radius: 20px;
-  border-bottom: transparent;
+  margin-top: 30px;
+  margin-left: 20px;
 }
 
 section .bottom {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
-  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.bottom-border {
+  height: 3vh;
+  width: 100vw;
+  background: linear-gradient(to right, black, rgb(13, 1, 48), rgb(38, 0, 128));
+  margin-bottom: 15px;
+  width: 54vw;
 }
